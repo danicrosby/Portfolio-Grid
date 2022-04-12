@@ -41,8 +41,9 @@
   border-bottom: .1rem solid lightgrey;
 }
 
-p {
+.accordion-body p {
   font-family: 'EB Garamond', serif;
+  font-size: 1.2rem;
 }
 
 h6 {

@@ -2,7 +2,6 @@
 
 /* font-family: 'EB Garamond', serif; */
 
-
 * {
   margin: 0;
   padding: 0;
@@ -23,28 +22,22 @@
 .logo {
   font-family: Arial, Helvetica, sans-serif;
   color: #8b8580;
-  text-decoration: none;
   font-size: 2.2rem;
   font-weight: lighter;
 }
 
 .logo:hover {
-  color: #73706D;
+  color: #B9B3AF;
 }
 
-a {
-  margin: 0;
-  padding: 0;
-}
-
-a:link {
+a:link,
+a:visited,
+a:hover,
+a:active,
+.tile-text:hover
+{
+  color: black;
   text-decoration: none;
-  color: #73706D;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #73706D;
 }
 
 /* INTRO CONTAINER */
@@ -62,8 +55,11 @@ a:hover {
 
 /* PROJECT CONTAINER */
 
+.project-container {
+  padding-bottom: 2rem;
+}
+
 .project-tiles {
-  padding: 6rem;
   margin: 1rem;
 }
 
@@ -79,8 +75,10 @@ a:hover {
   visibility: visible;
 }
 
-.tile-text {
+a .tile-text {
+  padding: 6rem 1rem;
   font-size: 1.5rem;
+  color: black;
 }
 
 .personal {
@@ -88,15 +86,15 @@ a:hover {
 }
 
 .ui-ux {
-  background-color: #cab19d;
-}
-
-.nss {
   background-color: #B9B3AF;
 }
 
+.nss {
+  background-color: #e7e1da;
+}
+
 .teaching {
-  background-color: #73706D;
+  background-color: #5e5956;
 }
 
 /* ABOUT PAGE */
@@ -144,8 +142,16 @@ a:hover {
 
 
 /* FOOTER */
+nav .pagination {
+  padding-right: 10rem;
+  padding-bottom: 2rem;
+}
+
 .footer {
-  padding-top: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: .05rem solid #B9B3AF;
+
 }
 
 .social-icon {
