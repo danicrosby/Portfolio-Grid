@@ -1,0 +1,153 @@
+/* STYLES */
+
+/* font-family: 'EB Garamond', serif; */
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVBAR */
+.nav {
+  padding: 1rem;
+}
+
+.navbar {
+  padding: 3rem;
+  border-bottom: .05rem solid #B9B3AF;
+  font-family: 'EB Garamond', serif;
+  font-size: 1.2rem;
+}
+
+.logo {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8b8580;
+  text-decoration: none;
+  font-size: 2.2rem;
+  font-weight: lighter;
+}
+
+.logo:hover {
+  color: #73706D;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  text-decoration: none;
+  color: #73706D;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #73706D;
+}
+
+/* INTRO CONTAINER */
+.intro-container {
+  padding: 10rem;
+}
+
+.intro-container h1 {
+  font-weight: 300;
+  padding-left: 5rem;
+  color: #73706D;
+  letter-spacing: .1rem;
+}
+
+
+/* PROJECT CONTAINER */
+
+.project-tiles {
+  padding: 6rem;
+  margin: 1rem;
+}
+
+.project-tiles:hover {
+  opacity: .6;
+}
+
+.project-tiles .tile-text {
+  visibility: hidden;
+}
+
+.project-tiles:hover .tile-text {
+  visibility: visible;
+}
+
+.tile-text {
+  font-size: 1.5rem;
+}
+
+.personal {
+  background-color: #e7e1da;
+}
+
+.ui-ux {
+  background-color: #cab19d;
+}
+
+.nss {
+  background-color: #B9B3AF;
+}
+
+.teaching {
+  background-color: #73706D;
+}
+
+/* ABOUT PAGE */
+.about-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.avatar-container {
+  display: flex;
+  justify-content: end;
+}
+
+.avatar-img {
+  margin-right: 5rem;
+}
+
+.about-text-container {
+  padding-left: 5rem;
+}
+
+.about-text {
+  padding-top: 2rem;
+  width: 20rem;
+}
+
+/* CONTACT PAGE  */
+.form-group {
+  width: 40rem;
+  font-family: 'EB Garamond', serif;
+  padding-top: .2rem;
+  color: #5e5956;
+}
+
+.contact-intro-container {
+  padding: 5rem 2rem 4rem 5rem;
+}
+
+.contact-h1 {
+  font-weight: 300;
+  color: #73706D;
+  letter-spacing: .1rem;
+}
+
+
+/* FOOTER */
+.footer {
+  padding-top: 8rem;
+}
+
+.social-icon {
+  width: 2rem;
+}

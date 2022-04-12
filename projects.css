@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.projects-container {
+  padding: 4rem 2rem;
+}
+
+.projects-title h1 {
+  padding: 3rem 5rem;
+  font-weight:300;
+  font-size: 3rem;
+}
+
+.lead {
+  padding: 0rem 5rem;
+  font-family: 'EB Garamond', serif;
+  margin-right: 40rem;
+  padding-bottom: 3rem;
+}
+
+.project-tile {
+  padding: 4rem 2rem;
+}
+
+.project-tile-text {
+  font-size: 1.5rem;
+}
+
+.project1 {
+  background-color: #a5a58d;
+}
+
+.project2 {
+  background-color: #d3c8bb;
+}
+
+.accordion {
+  margin-bottom: 10rem;
+  border-bottom: .1rem solid lightgrey;
+}
+
+p {
+  font-family: 'EB Garamond', serif;
+}
+
+h6 {
+  font-family: 'EB Garamond', serif;
+}
+
+.accordion-flush .accordion-item .accordion-button {
+  background-color: white;
+  outline: none !important;
+}
+
+.accordion-button:focus {
+  background-color: white;
+  outline: none !important;
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+  .projects-container {
+    padding: 2rem 1rem;
+  }
+  
+  .projects-title h1 {
+    padding: 1rem .5rem;
+    font-weight:300;
+    font-size: 3rem;
+  }
+  
+  .lead {
+    padding: 0rem .5rem;
+    margin-right: 0rem;
+  }
+}
